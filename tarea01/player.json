@@ -1,0 +1,198 @@
+[
+   {
+      "ubicacion": 23,
+      "id": 0,
+      "progradex": [
+         [
+            {
+               "id": 105,
+               "name": "Marowak"
+            },
+            {
+               "id": 50,
+               "name": "Diglett"
+            },
+            {
+               "id": 47,
+               "name": "Parasect"
+            },
+            {
+               "id": 65,
+               "name": "Alakazam"
+            }
+         ],
+         [
+            {
+               "level": 2,
+               "id": 122,
+               "name": "Mr Mime"
+            },
+            {
+               "level": 19,
+               "id": 35,
+               "name": "Clefairy"
+            }
+         ]
+      ],
+      "nombre": "martin",
+      "gymsinfo": [],
+      "medallas": [],
+      "contrasena": "alva",
+      "equipo": [
+         {
+            "win": 10,
+            "loss": 3,
+            "level": 8,
+            "id": 4,
+            "history": [
+               [
+                  {
+                     "trainer": "",
+                     "name": "Marowak",
+                     "result": "victoria"
+                  }
+               ],
+               [
+                  {
+                     "trainer": "trainers",
+                     "name": "Diglett",
+                     "result": "derrota"
+                  },
+                  {
+                     "trainer": "",
+                     "name": "Parasect",
+                     "result": "derrota"
+                  },
+                  {
+                     "trainer": "",
+                     "name": "Alakazam",
+                     "result": "derrota"
+                  }
+               ]
+            ]
+         }
+      ],
+      "dinero": 1000,
+      "prograbolas": [
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         {
+            "win": 50,
+            "loss": 0,
+            "level": 2,
+            "id": 122,
+            "history": [
+               [],
+               []
+            ]
+         },
+         {
+            "win": 0,
+            "loss": 20,
+            "level": 19,
+            "id": 35,
+            "history": [
+               [],
+               []
+            ]
+         }
+      ]
+   },
+   {
+      "ubicacion": 4,
+      "id": 1,
+      "progradex": [
+         [],
+         [
+            {
+               "level": 1,
+               "id": 77,
+               "name": "Ponyta"
+            },
+            {
+               "level": 2,
+               "id": 19,
+               "name": "Rattata"
+            },
+            {
+               "level": 6,
+               "id": 18,
+               "name": "Pidgeot"
+            }
+         ]
+      ],
+      "nombre": "carlos",
+      "gymsinfo": [],
+      "medallas": [],
+      "contrasena": "sanchez",
+      "equipo": [
+         {
+            "win": 0,
+            "loss": 0,
+            "level": 8,
+            "id": 4,
+            "history": [
+               [],
+               []
+            ]
+         }
+      ],
+      "dinero": 1000,
+      "prograbolas": [
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         {
+            "win": 0,
+            "loss": 0,
+            "level": 1,
+            "id": 77,
+            "history": [
+               [],
+               []
+            ]
+         },
+         {
+            "win": 0,
+            "loss": 0,
+            "level": 2,
+            "id": 19,
+            "history": [
+               [],
+               []
+            ]
+         },
+         {
+            "win": 0,
+            "loss": 0,
+            "level": 6,
+            "id": 18,
+            "history": [
+               [],
+               []
+            ]
+         }
+      ]
+   }
+]

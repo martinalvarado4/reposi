@@ -1,5 +1,31 @@
 ### Haciendo clases
 
+# get(): Devuelve el valor que corresponde con la key introducida.
+print(diccionario.get('Piloto 1'))
+Fernando Alonso
+ 
+# "key" in diccionario: devuelve verdadero (True) o falso (False) si la key existe en el diccionario.
+print ("Piloto 1" in diccionario)
+True
+print ("piloto 1" in diccionario)
+False
+print ("Fernando Alonso" in diccionario)
+False
+ 
+# "definición" in diccionario.values(): devuelve verdadero (True) o falso (False) si la definición existe en el diccionario.
+print ("Fernando Alonso" in diccionario.values())
+True
+ 
+# pop():  Devuelve el valor que corresponde con la key introducida, y luego borra la key y el valor.
+print(diccionario.pop('Piloto 1'))
+Fernando Alonso
+print(diccionario)
+{'Piloto 3': 'Felipe Massa', 'Piloto 2': 'Kimi Raikkonen'}
+ 
+# del lista['key']: Elimina el valor (y el key) asociado a la key indicada. A LO MEJOR SE PUEDE QUITAR TAMBIÉN.
+del diccionario['Piloto 2']
+print(diccionario)
+{'Piloto 3': 'Felipe Massa'}
 class Vector:
     ## descripcion de la clase, se aparece al usar help
     ''' Vector en 3D '''

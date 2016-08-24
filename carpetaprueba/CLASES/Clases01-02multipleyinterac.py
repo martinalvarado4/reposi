@@ -149,8 +149,8 @@ class Menu:
         sys.exit(0)
 
 
-# if __name__ == "__main__":#esto es para que corra en la consola
-  #  Menu().run()
+if __name__ == "__main__":#esto es para que corra en la consola
+    Menu().run()
 
 ##el método "_call_" se usa para crear una función que será ejecutada
 ##siemrep q se "llame" a una instancia la clase con paréntesis ( instancia() ).
@@ -171,11 +171,11 @@ class Animal():
     def __str__(self):
         return ('Animal llamado: {}'.format(self.nombre))
         
-gato = Animal('Cucho', 4)  #We make a cow
-perro = Animal('Boby', 4) #We can make many animals
-print(gato.nombre)
-print(perro) #aquí funciona el método __str__
-gato('pescado')#aquí le damos pescado al gato usando el método __call__
-print(gato.estomago)
-gato.asimilar()
-print(gato.estomago)
+#gato = Animal('Cucho', 4)  #We make a cow
+#perro = Animal('Boby', 4) #We can make many animals
+#print(gato.nombre)
+#print(perro) #aquí funciona el método __str__
+#gato('pescado')#aquí le damos pescado al gato usando el método __call__
+#print(gato.estomago)
+#gato.asimilar()
+#print(gato.estomago)
